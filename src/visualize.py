@@ -51,10 +51,12 @@ df = pd.DataFrame(
         {'Hashtag': hashtag,
             'Frequency': frequency}
         )
-df = df.sort_values('Frequency', ascending = False)
-df = df.head(10)
-df = df.sort_values('Frequency')
+
+df = df.sort_values('Frequency', ascending=True).tail(10)
+#df = df.sort_values('Frequency', ascending = False)
+#df = df.head(10)
+#df = df.sort_values('Frequency')
 print (df)
 plt.bar(df['Hashtag'],df['Frequency'])
-plt.savefig(f"{args.key}2.png")
+plt.savefig(f"{args.key}3.png")
 #plt.show()
