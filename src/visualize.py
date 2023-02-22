@@ -54,7 +54,7 @@ df = pd.DataFrame(
 df = df.sort_values('Frequency', ascending = False)
 df = df.head(10)
 df = df.sort_values('Frequency')
-#print (df)
+print (df)
 plt.bar(df['Hashtag'],df['Frequency'])
 plt.savefig(f"{args.key}2.png")
 #plt.show()
