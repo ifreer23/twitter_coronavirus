@@ -12,6 +12,7 @@ args = parser.parse_args()
 import os
 import json
 import matplotlib
+import pandas as pd
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from collections import Counter,defaultdict
@@ -46,6 +47,14 @@ for k,v in items:
     hashtag.append(k)
     frequency.append(v)
 #print(hashtag,frequency)
-plt.bar(hashtag[:10],frequency[:10])
+df = pd.DataFrame(
+        {'Hashtag': hashtag,
+            'Frequency': frequency}
+        )
+df = df.sort_values('Frequency', ascending = False)
+df = df.head(10)
+df = df.sort_values('Frequency')
+#print (df)
+plt.bar(df['Hashtag'],df['Frequency'])
 plt.savefig(f"{args.key}1.png")
-plt.show()
+#plt.show()
