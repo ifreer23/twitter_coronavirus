@@ -46,7 +46,6 @@ for k,v in items:
     hashtag.append(k)
     frequency.append(v)
 #print(hashtag,frequency)
-#plt.plot(hashtag,frequency)
 plt.bar(hashtag[:10],frequency[:10])
-plt.savefig(f"{args.key}.png")
+plt.savefig(f"{args.key}1.png")
 plt.show()
