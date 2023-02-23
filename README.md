@@ -172,3 +172,11 @@ There's two reasons:
     For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
     These are relatively insignificant decisions.
     I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
+
+## Results
+
+**Graph 1: #coronavirus by Country**
+
+<img #coronaviruscountry.png width=100% />
+
+
