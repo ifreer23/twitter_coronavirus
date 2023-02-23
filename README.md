@@ -177,6 +177,6 @@ There's two reasons:
 
 **Graph 1: #coronavirus by Country**
 
-<img ./#coronaviruscountry.png width=100% />
+<img src=#coronaviruscountry.png width=100% />
 
 
