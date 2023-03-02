@@ -179,4 +179,14 @@ There's two reasons:
 
 <img src=coronaviruscountry.png width=100% />
 
+**Graph 2: #coronavirus by Language**
 
+<img src=coronaviruslang.png width=100% />
+
+**Graph 3: #코로나바이러스 by Country**
+
+<img src=KoreanCountry.png width=100% />
+
+**Graph 4: #코로나바이러스 by Lang**
+
+<img src=KoreanLang.png width=100% />
