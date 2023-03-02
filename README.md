@@ -175,6 +175,8 @@ There's two reasons:
 
 ## Results
 
+Using the matplotlib library and the `/data/Twitter\ dataset ` folder from 2020, I have created a bar graph of the ten countries where tweets containing the hashtags `#coronavirus` (Graph 1) and ` #코로나바이러스` (Graph 3) were tweeted the most. I also created bar graphs that display the ten languages of tweets that were used the most when the `#coronavirus` (Graph 2) and `#코로나바이러스` (Graph 4) hashtags appeared in tweets. Unsurprisingly, in tweets that contained ` #coronavirus ` the US was the most popular origin of the tweet and English was the most popular language of the tweet. Similarly, for ` #코로나바이러스 ` Korea was the most popular location of the tweet and Korean was the most common language used.
+
 **Graph 1: #coronavirus by Country**
 
 <img src=coronaviruscountry.png width=100% />
@@ -187,6 +189,6 @@ There's two reasons:
 
 <img src=KoreanCountry.png width=100% />
 
-**Graph 4: #코로나바이러스 by Lang**
+**Graph 4: #코로나바이러스 by Language**
 
 <img src=KoreanLang.png width=100% />
